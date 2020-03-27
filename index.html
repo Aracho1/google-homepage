@@ -2,11 +2,54 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My Google homepage</title>
-        <link href="styles/style.css" rei="stylesheet">
+        <title>My Google page</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
     <body>
-        <img src="images/google-logo.png" alt="My test image">
-        <p>welcome to google</p>
+    <div>
+        <!--Navigation panel--> 
+        <nav>
+            <ul id="nav_line">
+                    <li><span class="left"><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></class></li>
+                    <li><span class="left"><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></class></li>
+                    <li><span class="right"><a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl">Images</a></class></li>
+                    <li><span class="right"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl">Gmail</a></class></li>
+            </ul>
+        </nav>
+    </div>
+
+        <!-- Main section -->
+    <div class = "main">
+            <img src="img/google-logo.png" alt="google logo" class="center">
+            <div class=search_bar_container>
+                <div class=search_bar>
+                    <button type="submit"><i class="fa fa-search" style="color:grey;"></i></button>
+                    <input class="search_bar_type" type="text" placeholder="">
+                    <button type="submit"><i class="fa fa-microphone"></i></button>
+                </div>
+
+                <div class = "buttons_container">
+                    <button class="buttons" type="submit">Google Search</button>
+                    <button class="buttons" type="submit"><a href="https://www.google.com/doodles/">I'm Feeling Lucky</a></button>
+                </div>
+            </div>
+        </div>
+
+
     </body>
+</div>
+    <footer>
+        <ul>
+            <li>United Kingdom</li>
+            <hr />
+            <li><span class="left bottom"><a href="https://www.google.com/intl/en_uk/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></class></li>
+            <li><span class="left bottom"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></class></li>
+            <li><span class="left bottom"><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></class></li>
+            <li><span class="right bottom"><a href="https://www.google.com/preferences?hl=en">Settings</a> </class></li>
+            <li><span class="right bottom"><a href="https://policies.google.com/terms?fg=1">Terms</a></class></li>
+            <li><span class="right bottom"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></class></li>
+        </ul> 
+    </footer>
 </html>
